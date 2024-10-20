@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Header for the Streamlit app
-st.header("Google Gemini - Generate Content")
+st.header("JD Parser")
 
 # Retrieve the API key from Streamlit secrets
 GOOGLE_API_KEY = st.secrets["GEMINI_API_KEY"]
